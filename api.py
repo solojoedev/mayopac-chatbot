@@ -128,7 +128,12 @@ def search_opa(question: str):
             ]
         )
 
-        return {"answer": response.content[0].text}
-    
+       # Find text block in response
+        text_block = next((block for block in response.content if hasattr(block, 'text')), None)
+        if text_block:
+            return {"answer": text_block.text}
+        else:
+            return {"answer": "I'm having trouble processing that request. Could you rephrase?"}
+            
     # If no tool use, return Claude's direct response
     return {"answer": message.content[0].text}
