@@ -36,7 +36,7 @@ def search_shows(month=None, genre=None):
                 else:
                     show_month = None
             #Filter by month if provided
-                if month and current_month and current_month.upper() != month.upper():
+                if month and show_month and show_month.upper() != month.upper():
                     continue
 
             #Filter by genre if provided
@@ -54,4 +54,3 @@ def search_shows(month=None, genre=None):
 
 
     return results
-
