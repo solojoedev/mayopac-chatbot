@@ -26,6 +26,7 @@ tools = [{
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"], #ALLOW ALL ORIGINS FOR NOW
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
