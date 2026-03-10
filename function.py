@@ -16,7 +16,6 @@ def search_shows(month=None, genre=None):
     results = []
 
     with open('mayopac.csv', 'r') as file:
-        next(file)
         reader = csv.DictReader(file)
         current_month = None
 
@@ -53,4 +52,6 @@ def search_shows(month=None, genre=None):
                 'description': row.get('Description', '')
             })
 
+
     return results
+
