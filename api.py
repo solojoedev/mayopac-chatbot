@@ -90,7 +90,7 @@ def search_opa(question: str):
 
     #Send question to Claude
     message = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-haiku-4-5",
         max_tokens=1024,
         tools=tools,
         system=system_prompt,
@@ -110,7 +110,7 @@ def search_opa(question: str):
 
         # Send Results back to Claude
         response = client.messages.create(
-            model="claude-4-sonnet-20250514",
+            model="claude-sonnet-4-5",
             max_tokens=1024,
             tools=tools, 
             system=system_prompt,
