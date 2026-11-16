@@ -3,6 +3,7 @@ from function import search_shows
 from datetime import datetime
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
+from zoneinfo import ZoneInfo
 import anthropic 
 import os
 import json  
@@ -60,6 +61,7 @@ def process_date_references(question: str) -> str:
          processed = question_lower.replace("next month", next_month)
 
     return processed
+today = datetime.now(ZoneInfo("America/New_York")).strftime("%A, %B %d, %Y")
 
 @app.get("/search")
 def search_opa(question: str):
@@ -74,7 +76,8 @@ def search_opa(question: str):
 
     1. Opening statement (personalized to their request)
     2. Maximum 3 show recommendations with elegant descriptions
-
+    
+    Today is {today}. When a guest asks about "today", "tonight", "this weekend", or "next week", work out the exact dates, search the matching month (or both months if the dates cross into the next one), and only recommend shows on those dates. If nothing matches, say so and suggest the closest upcoming shows.
     For EACH show, include this format immediately after the description:
     🎟 Learn More & Book Tickets: [use the exact "url" from the search results. If it is empty, skip this line.
 
