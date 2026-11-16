@@ -1,0 +1,26 @@
+{
+  "Venue & Box Office Info": {
+    "Location & Contact": "100 South Street, Morristown, NJ 07960. Box Office: 973-539-8008 | boxoffice@mayoarts.org | Admin: 973-539-0345. Hours: Mon-Sat 10:00 AM - 6:00 PM, plus 2 hours prior to every performance. MayoArts.org is the ONLY authorized website for tickets and parking."
+  },
+  "Parking & Transit": {
+    "MPAC-Operated Reserved Lots": "No on-site parking. MPAC operates 2 patron-exclusive lots for select shows (available to reserve online 2-3 weeks pre-show; day-of-show spots are CASH ONLY): 1) Presbyterian Church Lot (225 ft away, GPS: 65 South Street); 2) Verizon Lot (0.2 mi away, GPS: 39 Maple Avenue - gated lot; attendants on duty 2 hrs before show until 15 mins after start, or 1.5 hrs after start if an opener is scheduled; late arrivals risk no admittance).",
+    "Municipal & Free Lots": "Municipal Paid Lots (pricing varies by lot): Vail Mansion Garage (350 ft), DeHart Street Lot (1,200 ft), Dumont Street Lot (1,200 ft), Franklin & Elm Street Lot (0.3 mi), Ann & Bank Street Garage (0.5 mi), Hyatt Hotel Garage (0.55 mi), Dalton Garage (0.65 mi), Highlands Garage (0.8 mi). Free Lot: Town Hall Lot (0.4 mi). Street meters are free on Sundays.",
+    "Accessible Parking & Shuttle": "Accessible Parking: First-come, first-served metered on-street spots in front of and adjacent to MPAC marked 2 hours prior to showtime (pay meter if applicable). Free Shuttle: For select shows, a 25-passenger Gogel My Limo Van runs loops between Verizon Lot / DeHart Street Lot and MPAC starting 2 hours prior to curtain until the lobby clears post-show.",
+    "Public Transportation": "Located 0.4 miles (short walk) from the Morristown NJ Transit Rail Station."
+  },
+  "Security & Bag Policy": {
+    "Bag Inspection & Screening": "All patrons must pass through a security screening upon entry (budget extra arrival time). MPAC does not enforce a strict clear-bag-only rule on its policy page, but reserves the right to inspect ANY bag brought into the building and deny entry to anyone refusing screening.",
+    "Prohibited Items": "Strictly prohibited: Weapons/knives/blades of any kind, flares/fireworks, pepper spray/mace, full facial coverings (masks), outside food & beverages (including opened water/soda bottles; medical exceptions allowed after inspection), illegal drugs/outside alcohol, cigarettes/vapes/tobacco, professional cameras, audio/video recording devices, selfie sticks, posters/signs, items with offensive text/images, noisemakers (air horns), laser pointers, and animals (except service animals)."
+  },
+  "Ticketing Policies": {
+    "Refunds, Exchanges & Donations": "All sales are final—no refunds or exchanges (artists, dates, programs, and prices subject to change). Optional 'Secure My Booking' refund protection is offered at checkout. Patrons may donate tickets back as a tax-deductible contribution at least 48 hours pre-show. MPAC Members & Season Ticket Holders (5+ shows) can exchange tickets for face-value Account Credit at least 48 hours pre-show (service fees non-refundable).",
+    "Delivery, Will Call & Resellers": "Digital tickets accessed via MPAC account email; mail or Box Office pickup available if patron lacks a smartphone. Tickets switched to Will Call require valid Photo ID. VIP/Meet & Greet/Merch packages are strictly final sale (no member exchanges). Tickets from 3rd-party resellers cannot be guaranteed and fraudulent tickets will be denied entry."
+  },
+  "Theatre & Seating Rules": {
+    "Age & Lap Seating": "Every person entering the theatre must have a ticket regardless of age. Children may sit on a parent's lap, provided they are accounted for with their own ticket (unless specific show exceptions are noted).",
+    "Late Seating & Electronic Devices": "Late Seating: Seated at the discretion of the artist and MPAC staff; latecomers may have to wait in the lobby or sit in a designated section until intermission or an appropriate break. Devices: Cameras/recording devices strictly prohibited. Cell phones must be silenced; no texting/scrolling during performances; phone calls only in the lobby or plaza."
+  },
+  "Code of Conduct": {
+    "Patron Behavior & Zero Tolerance": "Zero tolerance for disruptive behavior (yelling at stage unless prompted, loud talking, throwing objects, blocking views with devices, intoxication) or discrimination/bias (race, nationality, age, religion, gender identity/expression, sexual orientation, ability). Violators may be removed without a refund."
+  }
+}

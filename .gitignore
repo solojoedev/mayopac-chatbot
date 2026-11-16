@@ -2,3 +2,5 @@ venv/
 .env
 __pycache__/
 *.pyc
+mpac_policies.csv
+make_policies.py
